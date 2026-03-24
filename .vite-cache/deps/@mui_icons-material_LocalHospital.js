@@ -1,0 +1,22 @@
+"use client";
+import "./chunk-C6WWHQR7.js";
+import {
+  createSvgIcon
+} from "./chunk-JIDCX6HA.js";
+import "./chunk-UE6YIHUC.js";
+import {
+  require_jsx_runtime
+} from "./chunk-XW63623V.js";
+import {
+  __toESM
+} from "./chunk-WYYPSHNY.js";
+
+// node_modules/@mui/icons-material/esm/LocalHospital.js
+var import_jsx_runtime = __toESM(require_jsx_runtime());
+var LocalHospital_default = createSvgIcon((0, import_jsx_runtime.jsx)("path", {
+  d: "M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2m-1 11h-4v4h-4v-4H6v-4h4V6h4v4h4z"
+}), "LocalHospital");
+export {
+  LocalHospital_default as default
+};
+//# sourceMappingURL=@mui_icons-material_LocalHospital.js.map
