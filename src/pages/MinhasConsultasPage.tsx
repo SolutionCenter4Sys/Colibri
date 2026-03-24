@@ -699,7 +699,7 @@ export default function MinhasConsultasPage() {
   const navigate = useNavigate();
   const vm = useMinhasConsultas();
 
-  const tabItems: { key: TabKey; label: string; count: number; icon: React.ReactNode }[] = [
+  const tabItems: { key: TabKey; label: string; count: number; icon: React.ReactElement }[] = [
     { key: 'upcoming', label: 'Próximas', count: vm.upcoming.length, icon: <CalendarMonthIcon /> },
     { key: 'history', label: 'Histórico', count: vm.completed.length, icon: <HistoryIcon /> },
     { key: 'cancelled', label: 'Canceladas', count: vm.cancelled.length, icon: <CancelIcon /> },

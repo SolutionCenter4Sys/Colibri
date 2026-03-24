@@ -62,7 +62,7 @@ export default function TriagemPage() {
             type={field.type}
             value={value}
             onChange={(e) => handleFieldChange(field.name, e.target.value)}
-            required={field.required}
+            required={'required' in field ? field.required : false}
             InputLabelProps={field.type === 'date' ? { shrink: true } : undefined}
           />
         );
@@ -90,7 +90,7 @@ export default function TriagemPage() {
             onChange={(e) => handleFieldChange(field.name, e.target.value)}
             multiline
             rows={4}
-            required={field.required}
+            required={'required' in field ? field.required : false}
           />
         );
       case 'multiselect':
